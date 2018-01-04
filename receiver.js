@@ -7,7 +7,7 @@
 	
 	The topic focused contents are commented with the keyword "ATTENTION"
 	
-	Due to much lines of code, the code is commented a lot to guarantee unerstanding. 
+	Due to much lines of code, the code is commented a lot to guarantee understanding. 
 	Depending on the developers javascript experience and improving naming(functions, variables),
 	the amount of comments could be reduced.
 	
@@ -21,11 +21,11 @@ var Table =
 {
 	
 	hasImages: document.getElementsByClassName('parts'),	//Tag area filled with images
-	hasImageNames: [],										//Image filenames
-	hasRandomNumbers: [],									//For random generated image positions
-	hasStamps:[],											//Stamp filenames
-	isStamped:[],											//List of user made stamps
-	hasCounted: 0,											//Mouse click counter
+	hasImageNames: [],					//Image filenames
+	hasRandomNumbers: [],					//For random generated image positions
+	hasStamps:[],						//Stamp filenames
+	isStamped:[],						//List of user made stamps
+	hasCounted: 0,						//Mouse click counter
 	
 	//Purpose: Gets the image names which are later needed to show them in web browser
 	setImageNames: function()
@@ -204,13 +204,13 @@ function distribute()
 	===================
 */
 
-Table.setImageNames("puzzle/Part0", "puzzle/Part1", "puzzle/Part2", 
-					"puzzle/Part3", "puzzle/Part4", "puzzle/Part5", 
-					"puzzle/Part6", "puzzle/Part7", "puzzle/Part8");
+Table.setImageNames(	"puzzle/Part0", "puzzle/Part1", "puzzle/Part2", 
+			"puzzle/Part3", "puzzle/Part4", "puzzle/Part5", 
+			"puzzle/Part6", "puzzle/Part7", "puzzle/Part8");
 					
 Table.setStamps("puzzle/Stamp0", "puzzle/Stamp1", "puzzle/Stamp2", 
-				"puzzle/Stamp3", "puzzle/Stamp4", "puzzle/Stamp5", 
-				"puzzle/Stamp6", "puzzle/Stamp7", "puzzle/Stamp8");
+		"puzzle/Stamp3", "puzzle/Stamp4", "puzzle/Stamp5", 
+		"puzzle/Stamp6", "puzzle/Stamp7", "puzzle/Stamp8");
 					
 Table.setPositions();
 
@@ -223,7 +223,7 @@ distribute();
 	===========
 */
 
-//Purpose: Checks what table position is clicked and stamps it with the required number
+//Purpose: Checks which table position is clicked and stamps it with the required number
 function stamping(field)
 {
 
