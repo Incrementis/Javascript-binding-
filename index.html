@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+	
+		<title>Binding</title>
+		<meta charset = "UTF-8">
+	
+	</head>
+	
+	<!--
+		NOTE:
+		===============================================================================================
+		
+		Because of simplicity & demonstration purposes, the "style" attribute is used within html tags.
+		Nevertheless it is recommended to use CSS for styling.
+		
+		===============================================================================================
+	-->
+	
+	<body style="text-align:center; margin-left: auto; margin-right:auto;">
+	
+		<h2>Puzzle</h2>
+		
+		<section>
+		
+			<table align="center" style="background-color:yellow">
+			
+				<tr>
+				
+				
+					<td class="parts" width="167px" height="125px" onclick="stamping(0);">	</td>
+					<td class="parts" width="167px" height="125px" onclick="stamping(1);">	</td>
+					<td class="parts" width="167px" height="125px" onclick="stamping(2);">	</td>
+					
+				</tr>
+				
+				
+				
+				<tr>
+				
+				
+					<td class="parts" width="167px" height="125px" onclick="stamping(3);">	</td>
+					<td class="parts" width="167px" height="125px" onclick="stamping(4);">	</td>
+					<td class="parts" width="167px" height="125px" onclick="stamping(5);">	</td>
+					
+					
+				</tr>
+				
+				
+				
+				<tr>
+				
+				
+					<td class="parts" width="167px" height="125px" onclick="stamping(6);">	</td>
+					<td class="parts" width="167px" height="125px" onclick="stamping(7);">	</td>
+					<td class="parts" width="167px" height="125px" onclick="stamping(8);">	</td>
+					
+					
+				</tr>
+			
+			
+			
+			</table>
+		
+			<br>
+			<br>
+			<button style="background-color:green;border:none;" type="button" onclick="going()">
+			
+				GO
+				
+			</button>
+			
+			<button style="background-color:red;border:none;" type="button" onclick="reseting()">
+			
+				RESET
+				
+			</button>
+			
+			<br>
+			<br>
+			<div id='solved'></div>
+			
+		</section>
+	
+	
+		<section>
+		
+			<hr style="width:50%;">
+		
+			<br>
+			<br>
+			For more explanation please visit - 
+			<a href = "https://github.com/Incrementis/Javascript-variable-hoisting-/wiki"> 
+			Binding Wiki</a>
+		
+		</section>
+		
+	</body>
+
+	
+	<footer>
+	
+		<script language = "javascript" type = "text/javascript" src = "receiver.js"></script> 
+	
+	</footer>
+	
+
+</html>
